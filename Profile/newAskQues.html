@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get free legal advice</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+           <img src="https://lawyerhomes.com/assets/images/lawyerhomes_logo.png" height="75" width="150" alt="lawyerhomes">
+        </a> 
+    </nav>
+
+    <div class="container mt-4 pt-2 mb-4 pb-4">
+        <div class="mb-4 pb-1">
+            <div class= "border-left border-danger p-3">
+                <h5 class="font-weight-light" style="line-height: 1.25em">
+                    "Ask a free question about your requirements or problems and get answers from multiple lawyers regarding the same for free. Later you can contact lawyers based on answers provided for your questions."
+                </h5>   
+            </div>
+        </div>
+
+    	<div class="row">
+    		<div class="col-md-6 col-sm-12">
+    			<div class="p-4 mb-2 rounded" style="background: #f2f2f2">
+    				<h2 class=" text-center">Ask free legal questions</h2>
+                    <form class="pt-3">
+                        <div class="form-group">
+                            <label for="areaoflaw">Select area of Law</label><br>
+                            <select class="form-control" id="areaoflaw" name="areaoflaw">
+                                <option><b>Select Area of Law</b></option>
+                                <option id="fl" value='5' ><b>Family Lawyer</b></option>
+                                <option id="crl" value='6' ><b>Criminal Lawyer</b></option>
+                                <option id="pl" value='10' ><b>property Lawyer</b></option>
+                                <option id="col" value='8' ><b>corporate Lawyer</b></option>
+                                <option id="cil" value='7' ><b>civil Lawyer</b></option>
+                                <option id="ccl" value='9' ><b>consumer court Lawyer</b></option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjectline">Subject Line</label>
+                            <input type="text" class="form-control" id="subjectline" name="subjectline" placeholder="Subject or Question title"  value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comment: Describe your Question</label>
+                            <textarea class="form-control" rows="3" id="comment" name ="comment" placeholder="Description"  value="" ></textarea>
+                        </div>
+
+                        <div class="form-group">                        
+                            <legend><label for="userinfo">Your Information</label></legend>
+                            <label for="name">Name</label>*
+                            <input type="text" class="form-control" id="name" name="name" placeholder="your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>*
+                            <input type="text" class="form-control" id="email" name="email" placeholder="your email">
+                            <p class="text-muted">You shall be contacted for all responses on given email id.</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>*
+                            <input type="tel" class="form-control" id="phoneno" name="phone" minlength="10" maxlength="10" placeholder="Your phone" required="">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city">City</label>*
+                            <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="chkboxTerms" name="chkboxTerms" checked="yes">
+                            <label class="form-check-label" for="exampleCheck1">I agree to 
+                                <a class="lh-home-page" href="https://lawyerhomes.com/">Lawyerhomes</a>
+                                <a class="" href="https://lawyerhomes.com/about_us/terms_of_use">Terms of Use</a>
+                                and
+                                <a class="" href="https://lawyerhomes.com/about_us/privacy_Policy">Privacy Policy</a>
+                            </label>
+                        </div>
+                        <div class="mx-auto" style="width: 100px;">
+                        <button type="submit" class="btn btn-primary btn-lg">Submit</button></div>
+                    </form>
+                    <p class="pt-4 text-muted small">
+                    	<b>Disclaimer</b>: The query answered by the lawyer will not be a legal opinion, as the response in based on the information shared while posting the query, any suggestions / response from advocate may change with any additional information provided later. Advocate might contact you to discuss on the matter posted once the query has been answered by him / her.
+                    </p>                                    
+                </div>
+    		</div>
+    		<div class="col-md-6 col-sm-12">
+    			<div class="pt-3">
+                    <h2 class="text-center pb-3">Recently asked Questions</h2>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-question-circle"></i>&nbsp;Question title goes here</h5>
+                            <p class="card-text">
+                                 Question goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.....
+                            </p>
+                            <a href="#" class="btn btn-primary">View Answer</a>
+                        </div>
+                    </div>
+                    <div class="card  mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-question-circle"></i>&nbsp;Question title goes here</h5>
+                            <p class="card-text">
+                                 Question goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.....
+                            </p>
+                            <a href="#" class="btn btn-primary">View Answer</a>
+                        </div>
+                    </div>
+                    <div class="card  mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-question-circle"></i>&nbsp;Question title goes here</h5>
+                            <p class="card-text">
+                                 Question goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.....
+                            </p>
+                            <a href="#" class="btn btn-primary">View Answer</a>
+                        </div>
+                    </div>
+                    <div class="card  mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-question-circle"></i>&nbsp;Question title goes here</h5>
+                            <p class="card-text">
+                                 Question goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.....
+                            </p>
+                            <a href="#" class="btn btn-primary">View Answer</a>
+                        </div>
+                    </div>
+                    <div class="card  mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-question-circle"></i>&nbsp;Question title goes here</h5>
+                            <p class="card-text">
+                                 Question goes here Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.....
+                            </p>
+                            <a href="#" class="btn btn-primary">View Answer</a>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                    <button class="btn btn-info btn-lg" type="button" data-toggle="modal" data-target="#callme">
+                        View More
+                    </button></div>
+                </div>
+            </div>
+        </div>
+        <!-- end of row -->
+
+        <div class="border mt-5">
+            <div class="p-5">
+                <div class="row">
+                    <div class="col-md-9 col-sm-12">
+                        <h3>Get a free call back from dedicated case manager for free, Get Lawyerhome Assistance.</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <button class="btn btn-success btn-lg btn-block " type="button" data-toggle="modal" data-target="#callme">
+                                <h3>Call me</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5" style="background: #f2f2f2">
+            <div class="p-4">
+                <h2 class="text-center pb-3">Most Searched Lawyers</h2> 
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="box-column text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlsO-WYA4-_RqWTntxfkeV6gQrDGxzcHFw1ayC-xNfZAJAAjW" class="img-fluid">
+                            <h5>Lorem ipsum dolor</h5>
+                            <p>Experience:10 yr</p>
+                        </div>
+                    </div>
+                     <div class="col-md-3 col-sm-6">
+                        <div class="box-column text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlsO-WYA4-_RqWTntxfkeV6gQrDGxzcHFw1ayC-xNfZAJAAjW" class="img-fluid">
+                            <h5>Lorem ipsum dolor</h5>
+                            <p>Experience:10 yr</p>
+                        </div>
+                    </div> <div class="col-md-3 col-sm-6">
+                        <div class="box-column text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlsO-WYA4-_RqWTntxfkeV6gQrDGxzcHFw1ayC-xNfZAJAAjW" class="img-fluid">
+                            <h5>Lorem ipsum dolor</h5>
+                            <p>Experience:10 yr</p>
+                        </div>
+                    </div> <div class="col-md-3 col-sm-6">
+                        <div class="box-column text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlsO-WYA4-_RqWTntxfkeV6gQrDGxzcHFw1ayC-xNfZAJAAjW" class="img-fluid">
+                            <h5>Lorem ipsum dolor</h5>
+                            <p>Experience:10 yr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of most searched lawyer section -->
+    </div>
+
+    
+    <div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="callme" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="exampleModalCenterTitle">Please provide your details</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="pt-2">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>*
+                            <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>*
+                            <input type="email" class="form-control" id="email" placeholder="Your email" required >
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Mobile number</label>*
+                            <input type="tel" minlength="10" maxlength="10" class="form-control" id="phoneno" placeholder="Mobile No. " required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">City</label>*
+                            <select class="form-control" id="city" required>
+                                   <option>Delhi</option>
+                                   <option>Mumbai</option>
+                                   <option>Chennai</option>
+                                   <option>Kolkata</option>
+                                   <option>Bengaluru</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Topic for Discussion</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Describe your question" rows="3"></textarea>
+                        </div>
+                    </form>     
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script src="jquery-key-restrictions.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#name").lettersOnly();
+
+        });
+        $(function(){
+            $("#phoneno").numbersOnly();
+
+        });
+        
+    </script>
+</body>
+</html>

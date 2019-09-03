@@ -1,0 +1,35 @@
+.container-fluid{
+	border-top: 10px solid white;
+}
+
+.cover-area{
+	background-image: url("landing-page.jpg");
+	height: 500px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-area{
+	background: #FFFFE0;
+}
+.form-head{
+	font-size: 25px;
+	color: white;
+	padding: 13px 0px;
+	background: black;
+}
+.bg{
+	background: #FFFFE0;
+}
+.tel{
+	font-size: 20px;
+	padding: 7px 0px;
+}
+.cover-bottom{
+	background-color: #FFFFE0;
+	height: 60px;
+}
+.box-column{
+	padding:10px 20px;
+}
